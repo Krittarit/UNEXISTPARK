@@ -1,0 +1,15 @@
+ul{
+    padding-left: 35%;
+}
+.explan{
+    text-align: justify;
+    letter-spacing: 3px;
+    list-style: none;
+}
+img.picture{
+    width: 65%;
+    height: 65%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 19%;
+}

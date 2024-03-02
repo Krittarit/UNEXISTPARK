@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon"  href="image/logo.png" type="image/x-icon" >
+    <title>UNEXIST PARK HOME PAGE</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="About/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="About/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="About/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="About/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="About/css/style.css" rel="stylesheet">
+    <link href="About/css/style-ticket.css" rel="stylesheet">
+
+    
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="m-0"><i class="fa fa-search me-2"></i>UNEXIST<span class="fs-5">Park</span></h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu m-0">
+                               
+                               
+                                <a href="form_login.php" class="dropdown-item">Log out</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                   
+                    
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-secondary hero-header mb-5">
+                <div class="container my-5 py-5 px-lg-5">
+                    <div class="row g-5 py-5">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <h1 class="text-white mb-4 animated zoomIn">UNEXIST PARK พร้อมให้บริการเเล้วตอนนี้!!!!</h1>
+                           
+                            <a href="form_login.php" class="btn btn-light py-sm-6 px-sm-5 rounded-pill me-3 animated slideInLeft">Log out</a>
+                           
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Full Screen Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content" style="background: rgba(29, 29, 39, 0.7);">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center justify-content-center">
+                        <div class="input-group" style="max-width: 600px;">
+                            <input type="text" class="form-control bg-transparent border-light p-3" placeholder="Type search keyword">
+                            <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Full Screen Search End -->
+
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container px-lg-5">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="section-title position-relative mb-4 pb-2">
+                            <h6 class="position-relative text-primary ps-4">About Us</h6>
+                            <h2 class="mt-2">The best Amusement Park in The World   </h2>
+                        </div>
+                        <p class="mb-4">UNEXIST PARK เป็นสวนสนุกที่เปิดให้บริการเมื่อปี 20XX โดยมีวัตถุประสงค์เพื่อมห้ผู้มาเยี่ยมชมสนุกสนานเเละเพลิดเพลิน
+                            กับการเล่นเกมเเละกิจกรรมต่างๆในสวนสนุก สวนสนุก UNEXIST PARK มีพื้นที่กว่า XX ไร่ซึ่งเเบ่งออกเป็นหลายๆโซน เช่น
+                            Adventure Zone Retro Zone ThrillZone
+                              นอกจากนี้ยังมีร้านอาหารเเละอื่นๆอีกมากมาย</p>
+                              <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <h6 class="mb-3"><i class="fa fa-check text-success me-2"></i>ความปลอดภัยชั้นเยี่ยม</h6>
+                                    <h6 class="mb-0"><i class="fa fa-check text-success me-2"></i>มีเครื่องเล่นเเสนสนุก</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h6 class="mb-3"><i class="fa fa-check text-success me-2"></i>มีการเเสดงสดให้ชม</h6>
+                                    <h6 class="mb-0"><i class="fa fa-check text-success me-2"></i>ราคาถูก</h6>
+                                </div>
+                            </div>
+                        <div class="d-flex align-items-center mt-4">
+                            
+                            <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="About/img/about.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Portfolio Start -->
+        <div class="container-xxl py-5">
+            <div class="container px-lg-5" >
+                <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
+                    <h2 class="mt-2">Tickets & Price</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6 col-md-6 wow zoomIn" data-wow-delay="0.1s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <img class="picture" src="About/img/Tickets type 1.jpg" >
+                            <h5 class="mb-3">ตั่วผู้ใหญ่</h5>
+                                <ul class="explan">
+                                    <li>
+                                        Height : 170.ซมขึ้นไป
+                                    </li>
+                                    <li>
+                                        Age : 20 ปีขึ้นไป
+                                    </li>
+                                    <li>
+                                        price : 700 บาท
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    <div class="col-lg-6 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <img class="picture" src="About/img/Tickets type 2.jpg">
+                            <h5 class="mb-3">ตั่ววัยรุ่น</h5>
+                            <ul class="explan">
+                                <li>
+                                    Height : 151-170 ซม
+                                </li>
+                                <li>
+                                    Age : 15-19 ปี
+                                </li>
+                                <li>
+                                    price : 500 บาท
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <img class="picture" src="About/img/Tickets type 3.jpg">
+                            <h5 class="mb-3">ตั่วเด็กโต</h5>
+                            <ul class="explan">
+                                <li>
+                                    Height : 120-150 ซม
+                                </li>
+                                <li>
+                                    Age : 10-14 ปี
+                                </li>
+                                <li>
+                                    price : 300 บาท
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 wow zoomIn" data-wow-delay="0.1s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <img class="picture" src="About/img/Tickets type 4.jpg">
+                            <h5 class="mb-3">ตั่วเด็กเล็ก</h5>
+                            <ul class="explan">
+                                <li>
+                                    Height : 90-110 ซม
+                                </li>
+                                <li>
+                                    Age : 5-10 ปี
+                                </li>
+                                <li>
+                                    price : 200 บาท
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio End -->
+
+
+        <!-- Service Start -->
+       
+        <!-- Service End -->
+
+
+        <!-- Portfolio Start -->
+        <div class="container-xxl py-5">
+            <div class="container px-lg-5">
+                <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="position-relative d-inline text-primary ps-4">Our Rides</h6>
+                    <h2 class="mt-2">All rides is here!!!</h2>
+                </div>
+                <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-12 text-center">
+                        <ul class="list-inline mb-5" id="portfolio-flters">
+                            <li class="btn px-3 pe-4 active" data-filter="*">All</li>
+                            <li class="btn px-3 pe-4" data-filter=".first">ZoneA</li>
+                            <li class="btn px-3 pe-4" data-filter=".second">ZoneB</li>
+                            <li class="btn px-3 pe-4" data-filter=".third">ZoneC</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row g-4 portfolio-container">
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.1s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="About/img/rides/โกคาร์ท.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-light" href="About/img/rides/โกคาร์ท.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Zone-A</small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">โกคาร์ท</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.3s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="About/img/rides/เคเบิ้ลคาร์.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-light" href="About/img/rides/เคเบิ้ลคาร์.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Zone-B</small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">เคเบิ้ลคาร์</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item third th wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="About/img/rides/ปราสาทผีสิง.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-light" href="About/img/rides/ปราสาทผีสิง.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Zone-C</small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">ปราสาทผีสิง</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.1s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="About/img/rides/รถบั๊ม.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-light" href="About/img/rides/รถบั๊ม.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Zone-A</small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">รถบั๊ม</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.1s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="About/img/rides/เรืออินเดียแดง.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-light" href="About/img/rides/เรืออินเดียแดง.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Zone-B</small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">เรืออินเดียแดง</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item third wow zoomIn" data-wow-delay="0.3s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="About/img/rides/วิหคสายฟ้า.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-light" href="About/img/rides/วิหคสายฟ้า.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Zone-C</small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">วิหคสายฟ้า</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.6s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="About/img/rides/หนูลมกรด.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-light" href="About/img/rides/หนูลมกรด.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Zone-A</small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">หนูลมกรด</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.1s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="About/img/rides/แบล้คโฮลโคสเตอร์.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-light" href="About/img/rides/แบล้คโฮลโคสเตอร์.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Zone-B</small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">แบล็คโฮลโคสเตอร์</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item third wow zoomIn" data-wow-delay="0.1s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="About/img/rides/ไวกิ้ง.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-light" href="About/img/rides/ไวกิ้ง.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Zone-C</small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">ไวกิ้ง</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.1s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="About/img/rides/เฮอริเคน.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-light" href="About/img/rides/เฮอริเคน.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Zone-A</small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">เฮอริเคน</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.1s">
+                        <div class="position-relative rounded overflow-hidden">
+                            <img class="img-fluid w-100" src="About/img/rides/สกายโคสเตอร์.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-light" href="About/img/rides/" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <div class="mt-auto">
+                                    <small class="text-white"><i class="fa fa-folder me-2"></i>Zone-B</small>
+                                    <a class="h5 d-block text-white mt-1 mb-0" href="">สกายโคสเตอร์</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio End -->
+
+
+        <!-- Testimonial Start -->
+        <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="position-relative d-inline text-primary ps-4">รีวิว</h6>
+            <h2 class="mt-2">รีวิวจากผู้ที่เคยมาใช้บริการ</h2>
+        </div>
+        <div class="container-xxl bg-secondary testimonial py-5 my-5 wow fadeInUp" data-wow-delay="0.1s">
+           
+            <div class="container py-5 px-lg-5">
+               
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item bg-transparent border rounded text-white p-4">
+                        <i class="fa fa-quote-left fa-2x mb-3"></i>
+                        <p>"Unexist Park เกินความคาดหวังของผมจริงๆ เป็นสวนสนุกที่มีความสมดุลในเรื่องของความตื่นเต้นและการพักผ่อน มีเครื่องเล่นที่ให้ความสนุกสนานสำหรับผู้ที่ชื่นชอบการผจญภัย และยังมีพื้นที่ที่เหมาะสำหรับการพักผ่อนอีกด้วย ผมมีความสุขมากๆและขอแนะนำให้มาเยี่ยมชม!"</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="About/img/testimonial-1.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h6 class="text-white mb-1">LuckyGirl23</h6>
+                                <small>Customer</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded text-white p-4">
+                        <i class="fa fa-quote-left fa-2x mb-3"></i>
+                        <p>"I recently visited Unexist Park with my family and we all had a blast! The park is clean and well-maintained, and the variety of rides and attractions kept us entertained all day. Highly recommend!"</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="About/img/testimonial-2.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h6 class="text-white mb-1">Sunflower88</h6>
+                                <small>CustomerVIP</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded text-white p-4">
+                        <i class="fa fa-quote-left fa-2x mb-3"></i>
+                        <p>"Unexist Park 是一个非常有趣的主题公园！设备刺激，氛围活跃，工作人员友好周到。我度过了愉快的时光，迫不及待想再次回去！"</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="About/img/testimonial-3.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h6 class="text-white mb-1">SkyWalker77</h6>
+                                <small>CustomerVVIP</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded text-white p-4">
+                        <i class="fa fa-quote-left fa-2x mb-3"></i>
+                        <p>"Unexist Park เป็นสวนสนุกที่น่าสนใจมากๆ! ได้ลุยไปกับเครื่องเล่นที่ตื่นเต้น บรรยากาศเต็มไปด้วยชีวิตชีวาและพนักงานก็เป็นกันเอง ผมมีความสุขมากๆและหวังว่าจะได้กลับมาอีก!"</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="About/img/testimonial-4.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h6 class="text-white mb-1">ศาสตราจารย์ กวางซีตาม่าว</h6>
+                                <small>Professionallllll</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+        <!-- Team Start -->
+        <div class="container-xxl py-5">
+            <div class="container px-lg-5">
+                <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="position-relative d-inline text-primary ps-4">Our Team</h6>
+                    <h2 class="mt-2">Meet Our Team Copy Members</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5" style="width: 75px;">
+                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                                <img class="img-fluid rounded w-100" src="About/img/lumsome.jpg" alt="ล่ำเซี๊ยม3">
+                            </div>
+                            <div class="px-4 py-3">
+                                <h5 class="fw-bold m-0">ภาณิศ</h5>
+                                <small>อย่าหันตูดให้เขา</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5" style="width: 75px;">
+                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                                <img class="img-fluid rounded w-100" src="About/img/team-1.jpg" alt="ล่ำเซี๊ยม1">
+                            </div>
+                            <div class="px-4 py-3">
+                                <h5 class="fw-bold m-0">พงศกร</h5>
+                                <small>Manager</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="team-item">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5" style="width: 75px;">
+                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                                <img class="img-fluid rounded w-100" src="About/img/team-31.jpg" alt="ล่ำเซี๊ยม2">
+                            </div>
+                            <div class="px-4 py-3">
+                                <h5 class="fw-bold m-0">กฤตฤทธิ์</h5>
+                                <small>ปลิง No.1</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+        
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-secondary text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-3">
+                        <h5 class="text-white mb-4">Get In Touch</h5>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>123 ราชมรรคา, นครปฐม, ไทย</p>
+                        <p><i class="fa fa-phone-alt me-3"></i>095 431 8865</p>
+                        <p><i class="fa fa-envelope me-3"></i>Gaybolg@example.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h5 class="text-white mb-4">Popular Link</h5>
+                        <a class="btn btn-link" href="index.html">Home</a>
+                        <a class="btn btn-link" href="form_login.php">Log in </a>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <h5 class="text-white mb-4">Project Gallery</h5>
+                        <div class="row g-2">
+                            <div class="col-4">
+                                <img class="img-fluid" src="About/img/Project_Gallary/vader2.jpg" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="About/img/Project_Gallary/parade.jpg" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="About/img/Project_Gallary/theme1.jpg" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="About/img/Project_Gallary/theme2.jpg" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="About/img/Project_Gallary/theme3.jpg" alt="Image">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid" src="About/img/Project_Gallary/view.jpg" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="About/lib/wow/wow.min.js"></script>
+    <script src="About/lib/easing/easing.min.js"></script>
+    <script src="About/lib/waypoints/waypoints.min.js"></script>
+    <script src="About/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="About/lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="About/lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="About/js/main.js"></script>
+</body>
+
+</html>

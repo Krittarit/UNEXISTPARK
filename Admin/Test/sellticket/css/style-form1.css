@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(bg_image3.jpg);
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    max-width: 750px;
+    background: rgb(0, 0, 0,0.5);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px white;
+}
+.title{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 1px white;
+}
+.main-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0; 
+}
+.inbox:nth-child(2n) {
+    justify-content: end;
+}
+.inbox{
+    display: flex;
+    flex-wrap: wrap;
+    width:50%;
+    padding-bottom: 15px;
+    
+}
+.inbox label{
+    width:95%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0px;
+}
+.inbox input{
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 0 10px;
+}
+
+.button{
+    margin-top: 40px;
+}
+.button input{
+    float: left;
+    cursor:pointer;
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+}
+.cancel a{
+    margin-left: -120px;
+    padding: 13px;
+}
+.cancel{
+    float: left;
+    cursor:pointer;
+    display: block;
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+}
+
+@media screen and (max-width : 600px){
+    .container{
+        min-width: 280px;
+    }
+
+    .inbox{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .inbox:nth-child(2n){
+        justify-content:space-between ;
+    }
+    .main-info{
+        max-height: 380px;
+        overflow: auto;
+    }
+    .main-info::-webkit-scrollbar{
+        width: 0;
+    }
+}
+
+

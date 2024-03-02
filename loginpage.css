@@ -1,0 +1,142 @@
+@font-face {
+    font-family: spk;
+    src: url(forn/Karmella.otf);
+}
+
+
+*{
+    padding : 0;
+    margin : 0;
+    text-decoration : none;
+    list-style:  none;
+}
+nav{
+    height: 110px;
+    width: 100%;
+    background: #2b4c6f;
+}
+label.logo a{
+    font-size: 50px;
+    font-weight : bold;
+    color: white;
+    padding: 0 50px;
+    line-height: 80px;
+    font-family: spk;
+    position: fixed;
+    top: 20px;
+    left:90px;
+}
+nav ul{
+    float:right;
+    margin-right: 30px;
+    margin-top: 20px;
+    position: fixed;
+    top: 2%;
+    right: 2%;
+}
+nav li{
+    display:inline-block;
+    margin: 0 8px;
+    line-height: 80px;   
+}
+nav a{
+    color:white;
+    font-size:20px;
+    text-transform: uppercase;
+    border : 1px solid transparent;
+    padding : 7px 5px;
+    border-radius:30px;  
+}
+
+.loginbox{
+    width: 300px;
+    height: 400px;
+    opacity: 0.9;
+    background: rgb(114, 7, 114);
+    color: #fff;
+    top: 55%;
+    left: 50%;
+    position : absolute;
+    transform : translate(-50%,-50%);
+    box-sizing:border-box;
+    border: 10px solid rgb(234, 23, 185);
+    border-radius: 30px;
+    padding :70px 30px;
+    box-shadow: 5px 5px #888888;
+}
+.starwar{
+    position: fixed;
+    top: 0px;
+    left:20px;
+    width: 100px;
+    height:100px;
+}
+.avatar{
+    width: 80px;
+    height:80px;
+    border-radius: 50%;
+    position:absolute;
+    top:-30px;
+    left:calc(50% - 35px);
+}
+.iconAboutus{
+    width: 50px;
+    height:50px;
+    position: fixed;
+    top: 10px;
+    right:86px;
+}
+.iconTricket{
+    width: 100px;
+    height:100px;
+    position: fixed;
+    top: -16px;
+    right:195px;
+}
+
+h1{
+    margin:0;
+    
+    font-family: spk;
+    padding: 0 0 20px;
+    text-align:center;
+    font-size:30px;
+    
+}
+.loginbox p{
+        margin:0;
+        padding:0;
+        font-weight: bold;
+        font-family: spk;
+}
+.loginbox input{
+    width:100%;
+    margin-bottom:20px;
+    
+}
+.loginbox input[type="text"],input[type="password"]{
+    border:none;
+    border-bottom:1px solid #fff;
+    background:transparent;
+    outline:none;
+    height:40px;
+    color:#ffffff;
+    font-size:16px;
+    
+}
+.loginbox input[type="submit"]{
+    border:none;
+    outline: none;
+    height: 40px;
+    background:#07a250;
+    
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor:pointer;
+    background:#bc1d1d;
+    color:#000;
+}
